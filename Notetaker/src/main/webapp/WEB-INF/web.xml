@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Savenote</servlet-name>
+  	<display-name>Savenote</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.Savenote</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteServlet</servlet-name>
+  	<display-name>DeleteServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.DeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EditServlet</servlet-name>
+  	<display-name>EditServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlet.EditServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateServlet</servlet-name>
+  	<display-name>UpdateServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.EditServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Editservlet</servlet-name>
+  	<display-name>Editservlet</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.Editservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Savenote</servlet-name>
+  	<url-pattern>/s</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteServlet</servlet-name>
+  	<url-pattern>/DeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EditServlet</servlet-name>
+  	<url-pattern>/EditServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateServlet</servlet-name>
+  	<url-pattern>/UpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Editservlet</servlet-name>
+  	<url-pattern>/Editservlet</url-pattern>
+  </servlet-mapping>
+</web-app>
